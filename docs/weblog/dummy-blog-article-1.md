@@ -1,12 +1,13 @@
 ---
-title: Replicating a Back Bet with a Portfolio of Lays
+title: Dummy Blog Article 1
 date: 2025-05-06
-summary: In a perfectly efficient market (zero spread, zero over-round) one back bet can be reproduced exactly by laying every other runner.
+summary: Replicating a back bet using a portfolio of lays in an efficient betting market.
 tags: [arbitrage, market-microstructure, betting-maths]
 ---
 
-**Take-away**  
+# Dummy Blog Article 1
 
+**Take-away**  
 On a friction-free exchange, backing a runner is identical to placing a bundle of lay bets on *all* the others.  
 The lay stakes are set mechanically by the odds, so no edge is required to build the replication.
 
@@ -19,8 +20,6 @@ We consider an n-runner race under these assumptions:
 - **No spread** — back and lay prices are identical  
 - **No over-round** — implied probabilities sum to 1  
 - Decimal odds = 1 / implied probability
-
-<br>
 
 | Symbol | Meaning |
 |--------|---------|
@@ -36,20 +35,14 @@ We back runner **A** with stake £B at odds O_A.
 
 ### 2.1. P&L of the back bet
 
-<br>
-
 | Outcome         | P&L (£)            |
 |-----------------|--------------------|
 | A wins          | +B * (O_A - 1)     |
 | Some other wins | -B                 |
 
-<br>
-
 Goal — reproduce the same profile *without* backing A; only by laying every other runner.
 
 ### 2.2. Closed-form lay stakes
-
-<br>
 
 For each runner j ≠ A, lay:
 
@@ -58,8 +51,6 @@ For each runner j ≠ A, lay:
 ---
 
 ## 3. Tiny simulation sanity-check (Python)
-
-<br>
 
 ```python
 import numpy as np, pandas as pd
