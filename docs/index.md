@@ -9,10 +9,11 @@ title: Welcome to Quant Sports Trading
 
   <div class="flex flex-wrap justify-center gap-4 mt-12">
     <a href="/research" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-xl transition">Research</a>
-    <a href="/investors" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Investor Info</a>
+    <a href="/investors" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Invest</a>
     <a href="/contact" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Contact</a>
     <a href="/weblog" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Weblog</a>
   </div>
 </div>
+
 
 
