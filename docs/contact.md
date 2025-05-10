@@ -3,9 +3,16 @@ layout: page
 title: Contact
 ---
 
-<h1 class="text-4xl font-bold mb-4" style="color: #D4AF37;">QST Contact:</h1>
-
-<br>
+<div class="flex flex-wrap items-center justify-between mb-8">
+  <h1 class="text-4xl font-bold" style="color: #D4AF37;">QST Contact:</h1>
+  <div class="flex flex-wrap justify-end gap-4 mt-4 sm:mt-0">
+    <a href="/" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Home</a>
+    <a href="/research" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Research</a>
+    <a href="/investors" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Invest</a>
+    <a href="/contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-xl transition">Contact</a>
+    <a href="/weblog" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Weblog</a>
+  </div>
+</div>
 
 Quant Sports Trading Ltd. welcomes enquiries from investors, researchers, and collaborators.
 
@@ -34,3 +41,16 @@ Please use the details below to get in touch.
 <br>
 
 We aim to respond to all genuine enquiries within 2 business days.
+
+<br><br>
+
+<div class="text-center text-sm text-gray-400 mt-8">
+  <p>
+    <a href="/" class="hover:underline">Home</a> |
+    <a href="/research" class="hover:underline">Research</a> |
+    <a href="/investors" class="hover:underline">Invest</a> |
+    <a href="/contact" class="hover:underline">Contact</a> |
+    <a href="/weblog" class="hover:underline">Weblog</a>
+  </p>
+  <p class="mt-4">&copy; Quant Sports Trading Ltd. All rights reserved.</p>
+</div>

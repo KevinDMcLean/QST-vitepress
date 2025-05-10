@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Welcome to Quant Sports Trading
 ---
 
@@ -14,6 +14,21 @@ title: Welcome to Quant Sports Trading
     <a href="/weblog" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Weblog</a>
   </div>
 </div>
+
+<br><br>
+
+<div class="text-center text-sm text-gray-400 mt-12 mb-8">
+  <p>
+    <a href="/" class="hover:underline">Home</a> |
+    <a href="/research" class="hover:underline">Research</a> |
+    <a href="/investors" class="hover:underline">Invest</a> |
+    <a href="/contact" class="hover:underline">Contact</a> |
+    <a href="/weblog" class="hover:underline">Weblog</a>
+  </p>
+  <p class="mt-4">&copy; Quant Sports Trading Ltd. All rights reserved.</p>
+</div>
+
+
 
 
 
