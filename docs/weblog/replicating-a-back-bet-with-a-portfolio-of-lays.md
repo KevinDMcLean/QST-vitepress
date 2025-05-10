@@ -1,11 +1,11 @@
 ---
-title: Dummy Blog Article 1
+title: Replicating a Back Bet with a Portfolio of Lays
 date: 2025-05-06
 summary: Replicating a back bet using a portfolio of lays in an efficient betting market.
 tags: [arbitrage, market-microstructure, betting-maths]
 ---
 
-# Dummy Blog Article 1
+# Replicating a Back Bet with a Portfolio of Lays
 
 **Take-away**  
 On a friction-free exchange, backing a runner is identical to placing a bundle of lay bets on *all* the others.  
