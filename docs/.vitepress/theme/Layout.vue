@@ -1,16 +1,12 @@
-<script setup>
-// No logic needed yet — just styling
-</script>
-
 <template>
-  <div class="bg-black text-white min-h-screen p-6">
-    <div class="bg-green-500 p-4 text-black font-bold rounded">
-      Tailwind is working ✅
+  <Layout>
+    <div class="bg-slate-900 text-white min-h-screen">
+      <Content />
     </div>
-    <Content />
-  </div>
+  </Layout>
 </template>
 
-<style scoped>
-/* Optional scoped styles, leave empty for now */
-</style>
+<script setup>
+import DefaultTheme from 'vitepress/theme'
+const { Layout } = DefaultTheme
+</script>
