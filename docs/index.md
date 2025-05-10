@@ -3,14 +3,16 @@ layout: home
 title: Welcome to Quant Sports Trading
 ---
 
-<div class="text-center mt-10">
-  <h1 class="text-5xl font-bold text-white mb-4">Welcome to Quant Sports Trading</h1>
-  <p class="text-lg text-gray-300 mb-8">We develop and deploy systematic alpha in sports markets.</p>
+<div class="text-center mt-16">
+  <h1 class="text-5xl font-extrabold mb-4" style="color: #D4AF37;">Quant Sports Trading Ltd</h1>
+  <p class="text-xl text-gray-300 mb-8">Hedge-fund-grade algorithmic sports trading</p>
 
-  <div class="flex flex-wrap justify-center gap-4">
-    <a href="/research" class="px-6 py-3 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white text-lg shadow-md transition">Research Repository</a>
-    <a href="/investors" class="px-6 py-3 rounded-2xl bg-gray-800 hover:bg-gray-700 text-white text-lg shadow-md transition">Investor Info</a>
-    <a href="/contact" class="px-6 py-3 rounded-2xl bg-gray-800 hover:bg-gray-700 text-white text-lg shadow-md transition">Contact</a>
-    <a href="/weblog" class="px-6 py-3 rounded-2xl bg-gray-800 hover:bg-gray-700 text-white text-lg shadow-md transition">Weblog</a>
+  <div class="flex flex-wrap justify-center gap-4 mt-12">
+    <a href="/research" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-5 rounded-xl transition">Research</a>
+    <a href="/investors" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Investor Info</a>
+    <a href="/contact" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Contact</a>
+    <a href="/weblog" class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-5 rounded-xl transition">Weblog</a>
   </div>
 </div>
+
+

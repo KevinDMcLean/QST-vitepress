@@ -1,12 +1,11 @@
 <template>
-  <Layout>
-    <div class="bg-slate-900 text-white min-h-screen">
-      <Content />
-    </div>
-  </Layout>
+  <DefaultTheme.Layout>
+    <template #nav-bar-title>
+      <!-- this removes the default title -->
+    </template>
+  </DefaultTheme.Layout>
 </template>
 
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-const { Layout } = DefaultTheme
 </script>

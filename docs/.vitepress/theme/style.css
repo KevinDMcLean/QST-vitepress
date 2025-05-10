@@ -25,10 +25,8 @@ code {
   @apply bg-gray-800 text-sm px-1 py-0.5 rounded;
 }
 
-button, .button {
-  @apply px-6 py-3 rounded-2xl bg-gray-800 hover:bg-gray-700 text-white text-lg shadow-md transition;
+/* 🔥 Fix: Remove default site title (like "vitepress") from nav bar */
+.VPNavBarTitle {
+  display: none !important;
 }
 
-.container {
-  @apply max-w-7xl mx-auto px-4;
-}
