@@ -28,12 +28,16 @@ New posts will be added below.
 
 ## 📝 Latest Posts
 
-<div class="mt-6 mb-10">
-
-- <a href="./dummy-blog-article-1" class="text-blue-400 hover:underline font-semibold">Dummy Blog Article 1</a><br>
-  <span class="text-sm text-gray-400">Replicating a back bet with a portfolio of lays — 6 May 2025</span>
-
-</div>
+<ul class="mt-6 mb-10">
+  <li>
+    <a href="./dummy-blog-article-1" class="text-blue-400 hover:underline font-semibold">
+      Dummy Blog Article 1
+    </a><br>
+    <span class="text-sm text-gray-400">
+      Replicating a back bet with a portfolio of lays — 6 May 2025
+    </span>
+  </li>
+</ul>
 
 <br>
 
