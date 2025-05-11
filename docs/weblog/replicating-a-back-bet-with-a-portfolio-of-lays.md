@@ -5,6 +5,10 @@ summary: Replicating a back bet using a portfolio of lays in an efficient bettin
 tags: [arbitrage, market-microstructure, betting-maths]
 ---
 
+<a href="/weblog" class="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition mb-6">
+  ← Back to Weblog
+</a>
+
 # Replicating a Back Bet with a Portfolio of Lays
 
 **Take-away**  
@@ -72,3 +76,4 @@ print(df, '\n')
 
 print('Sum of lays  :', L.sum())
 print('Should equal :', B * (O[A] - 1))
+

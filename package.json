@@ -5,8 +5,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
-    "postinstall": "chmod +x node_modules/.bin/vitepress"
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
@@ -20,3 +19,4 @@
     "vitepress": "^1.6.3"
   }
 }
+

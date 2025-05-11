@@ -14,7 +14,14 @@ body {
 }
 
 a {
-  @apply text-blue-400 hover:text-blue-300 transition underline;
+  @apply text-blue-400 hover:text-blue-300 transition;
+  text-decoration: underline;
+}
+
+/* Button-style links: no underline */
+.button-link {
+  @apply inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition;
+  text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -29,4 +36,3 @@ code {
 .VPNavBarTitle {
   display: none !important;
 }
-
