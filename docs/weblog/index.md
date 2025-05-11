@@ -28,15 +28,16 @@ New posts will be added below.
 
 ## 📝 Latest Posts
 
-<ul class="mt-6 mb-10">
+<ul id="blog-list" class="mt-6 mb-10 space-y-6">
   <li>
-    <a href="./replicating-a-back-bet-with-a-portfolio-of-lays" class="text-blue-400 hover:underline font-semibold">
+    <a href="/weblog/replicating-a-back-bet-with-a-portfolio-of-lays" class="text-blue-400 hover:underline font-semibold">
       Replicating a Back Bet with a Portfolio of Lays
     </a><br>
     <span class="text-sm text-gray-400">
       Efficient market replication using lay bundles — 6 May 2025
     </span>
   </li>
+  <!-- Add more blog posts here in the same format -->
 </ul>
 
 <br>
@@ -59,3 +60,7 @@ If you'd like to contribute or suggest a topic, please [contact us](/contact).
   </p>
   <p class="mt-4">&copy; Quant Sports Trading Ltd. All rights reserved.</p>
 </div>
+
+
+
+

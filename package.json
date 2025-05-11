@@ -17,6 +17,8 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.4.3",
     "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "katex": "^0.16.22"
   }
 }
-
